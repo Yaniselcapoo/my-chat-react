@@ -1,0 +1,28 @@
+{
+  "name": "my-chat-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "create-frontend": "npm create vite@latest frontend",
+    "dev": "nodemon server/index.js"
+  },
+  "keywords": [],
+  "author": {
+    "email": "yanismianoutaleb@gmail.com",
+    "name": "Yanis Milan Outaleb",
+    "url": "http://localhost:5173/"
+  },
+  "license": "GPL-3.0-only",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "socket.io": "^4.7.5",
+    "socket.io-client": "^4.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
